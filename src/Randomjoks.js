@@ -4,6 +4,7 @@ import './Randomjoks.css'
 
 function Randomjoks() {
     const [data,setdata] =useState([])
+   
     function show(){
         
             axios.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single")
@@ -13,7 +14,7 @@ function Randomjoks() {
             })
         
     }
-    useEffect(Randomjoks,[])
+   
    
    
   return (
