@@ -18,9 +18,13 @@ function Randomjoks() {
    
    
   return (
-    <div>
+    <div> 
         <div className='container'> 
             <div className='main'>
+              {/* <img src='./cartoon-duck-free.png' alt=''></img> */}
+              <img src='./funny 2.png' alt=''></img>
+              <img src='./Funny-Sticker-Emoji-PNG-Image.png' alt=''></img>
+              <img src='./Comic-Funny.png' alt=''></img>
             <div className='box'>
               <h1>{data}</h1>
               
